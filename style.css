@@ -61,14 +61,14 @@ header nav ul li:hover {
 .left {
     background-color: bisque;
     width: 40%;
-    position: absolute;
-    left: 0px;
+    float: left;
+
 }
 
 .right {
     width: 40%;
-    position: absolute;
-    right: 20px;
+    float: right
+
 
 
 }
@@ -84,4 +84,22 @@ h4,
 h5,
 h6 {
     text-align: center;
+}
+
+.footer-img{
+   width: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+        transform: rotate(45deg);
+    transition: transform 0.5s;
+    
+}
+.footer-img:hover{
+    transform: rotate(0deg);
+}
+.body{
+    clear: both;
+    
+    
 }
