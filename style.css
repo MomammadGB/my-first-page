@@ -1,0 +1,83 @@
+* {
+    margin: 0px 20px;
+    font-family: sans-serif;
+}
+
+
+.logo {
+    background: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 10px darkgray;
+    position: relative;
+    top: 15px;
+
+}
+
+.logo:hover {
+    background: gray;
+
+    box-shadow: 0px 0px 20px 10px darkgray;
+
+    top: 13px;
+    cursor: pointer;
+    color: black;
+}
+
+.logo-text {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    ;
+    text-align: center;
+}
+
+header nav {
+    position: relative;
+    top: 25px;
+    left: -15px;
+    list-style: none;
+    text-align: center;
+
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+}
+
+.left {
+    background-color: bisque;
+    width: 40%;
+    position: absolute;
+    left: 0px;
+}
+
+.right {
+    width: 40%;
+    position: absolute;
+    right: 20px;
+
+
+}
+
+.frog {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
